@@ -8,7 +8,7 @@ const PORT = 3000;
 app.use(bodyParser.json());
 
 // Connect to MongoDB using Mongoose
-mongoose.connect('mongodb://0.0.0.0:27017/testDB', {
+mongoose.connect('mongodb+srv://pranavpadmakarjoshi8999:ylpH6svui2jn87H6@cluster0.omtdsxk.mongodb.net/testDB?retryWrites=true&w=majority', {
 
 });
 
